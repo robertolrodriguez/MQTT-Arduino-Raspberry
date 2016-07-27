@@ -24,7 +24,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   byte* p = (byte*)malloc(length);
   // Copy the payload to the new buffer
   memcpy(p,payload,length);
-  client.publish("mqtt", p, length);
+  client.publish("xxxx", p, length); //xxxx is your topic
   // Free the memory
   free(p);
 }
@@ -86,7 +86,7 @@ void loop()
     
    if(client.connect("arduinoClient"))
    {
-     client.publish("mqtt",kitchen);
+     client.publish("xxxx",kitchen); //xxxx is your topic
    }
    
 }
