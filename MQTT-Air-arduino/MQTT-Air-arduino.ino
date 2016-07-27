@@ -69,7 +69,7 @@ sprintf(room_air, "Air condition: %d", val);
 
 if(client.connect("arduinoClient"))
 {
-  client.publish("xxxx", room_air);
+  client.publish("xxxx", room_air);  //xxxx is your topic
 }
 
 delay(700);
