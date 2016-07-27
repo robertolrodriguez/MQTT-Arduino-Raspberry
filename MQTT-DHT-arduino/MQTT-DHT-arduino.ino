@@ -11,7 +11,7 @@ char ssid[] = "Wifi ID";
 char password[] = "Wifi PassWord";
 int status = WL_IDLE_STATUS;
 const char* mqtt_server = "xxx.xxx.x.x";  //server url
-const char* topic = "xxxx";  //topic;s name
+const char* topic = "xxxx";  //topic's name
 // Callback function header
 void callback(char* topic, byte* payload, unsigned int length);
 
@@ -28,7 +28,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   byte* p = (byte*)malloc(length);
   // Copy the payload to the new buffer
   memcpy(p,payload,length);
-  client.publish("mqtt", p, length);
+  client.publish("xxxx", p, length);  // xxxx is your topic
   // Free the memory
   free(p);
 }
@@ -81,7 +81,7 @@ void loop()
   
   if (client.connect("arduinoClient")) 
   {
-    client.publish("mqtt", room);
+    client.publish("xxxx", room);  //xxxx is you topic's name
   }
   delay(9600);
 }
