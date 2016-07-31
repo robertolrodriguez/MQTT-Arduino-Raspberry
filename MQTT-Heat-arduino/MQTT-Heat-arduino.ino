@@ -15,7 +15,7 @@ IRTherm therm;
 void callback(char* topic, byte* payload, unsigned int length);
 
 WiFiClient espClient;
-PubSubClient client(mqtt_server, 1883, callback, espClient);
+PubSubClient client(mqtt_server, 1883, espClient);
 
 // Callback function
 void callback(char* topic, byte* payload, unsigned int length) {
