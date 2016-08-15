@@ -58,3 +58,5 @@ make IOT with Arduino,Raspberry. use MQTT
    On raspberrypi, also you can pub or sub by python script. you can see souce code in my github-MQTT-Arduino-Raspberry.
    
 4. make IOT with arduino.
+   
+   Look MQTT-Arduino-Raspberry/IOT Arduino Circuit.docx
