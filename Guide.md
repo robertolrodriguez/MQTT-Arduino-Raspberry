@@ -45,11 +45,11 @@ make IOT with Arduino,Raspberry. use MQTT
      
      ->apt-get install mosquitto-clients 
 
-   Then, you can pub message.
+   Then, you can pub message on terminal.
    
      ->mosquitto_pub -d -t Topic(your topic's name) -m "hellow world"
    
-   or you can sub message.
+   or you can sub message on terminal.
    
      ->mosquitto_sub -d -t Topic(your topic's name)
    
