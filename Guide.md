@@ -20,7 +20,7 @@ make IOT with Arduino,Raspberry. use MQTT
    if you followed all, you are complete to make MQTT broker on raspberry pi.
 
 
-##2. you have to build MQTT client on PC(window or Linux or Mac). I has built MQTT.fx
+#2. you have to build MQTT client on PC(window or Linux or Mac). I has built MQTT.fx
   
       MQTT.fx
       - http://www.jensd.de/apps/mqttfx/1.1.0/
@@ -31,7 +31,7 @@ make IOT with Arduino,Raspberry. use MQTT
   
       - http://www.hivemq.com/blog/seven-best-mqtt-client-tools
   
-###3. you have to set up MQTT client.
+#3. you have to set up MQTT client.
   
       (1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
 
@@ -57,6 +57,6 @@ make IOT with Arduino,Raspberry. use MQTT
    
    On raspberrypi, also you can pub or sub by python script. you can see souce code in my github-MQTT-Arduino-Raspberry.
    
-####4. make IOT with arduino.
+#4. make IOT with arduino.
    
    Look MQTT-Arduino-Raspberry/IOT Arduino Circuit.docx
