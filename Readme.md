@@ -1,5 +1,6 @@
 # MQTT-Arduino-Raspberry
 make IOT with Arduino,Raspberry. use MQTT
+by Nam Ki Hyun, sophomore , start project on 16/03/11.
 
 #1. you have to make MQTT broker on raspberry pi.
 
