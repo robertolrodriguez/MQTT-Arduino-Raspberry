@@ -30,7 +30,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
 
    you can check famous clients here.
   
-    http://www.hivemq.com/blog/seven-best-mqtt-client-tools
+   http://www.hivemq.com/blog/seven-best-mqtt-client-tools
   
 #3. you have to set up MQTT client.
   
