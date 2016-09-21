@@ -27,9 +27,9 @@ by Nam Ki Hyun, sophomore , start project on 16/03/11.
       MQTT.fx
       - http://www.jensd.de/apps/mqttfx/1.1.0/
   
-      But you can choose other clients.
+   But you can choose other clients.
 
-      you can check famous clients here.
+   you can check famous clients here.
   
       - http://www.hivemq.com/blog/seven-best-mqtt-client-tools
   
