@@ -33,11 +33,11 @@ make IOT with Arduino,Raspberry. use MQTT
   
 #3. you have to set up MQTT client.
   
-      (1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
+      ##(1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
 
-      (2). Port: Mosquiito brokers earlier installation uses the default port [1883].
+      ##(2). Port: Mosquiito brokers earlier installation uses the default port [1883].
 
-      (3). Username / Password : Now you do not need to set.
+      ##(3). Username / Password : Now you do not need to set.
       
       Do set up MQTT client on all device.
       
