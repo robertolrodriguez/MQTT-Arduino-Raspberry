@@ -33,25 +33,25 @@ make IOT with Arduino,Raspberry. use MQTT
   
 #3. you have to set up MQTT client.
   
-##(1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
+####(1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
 
-##(2). Port: Mosquiito brokers earlier installation uses the default port [1883].
+####(2). Port: Mosquiito brokers earlier installation uses the default port [1883].
 
-##(3). Username / Password : Now you do not need to set.
+####(3). Username / Password : Now you do not need to set.
       
-       Do set up MQTT client on all device.
+   Do set up MQTT client on all device.
       
    you can check MQTT client on Raspberrypi.
      
-     ->apt-get install mosquitto-clients 
+    apt-get install mosquitto-clients 
 
    Then, you can pub message on terminal.
    
-     ->mosquitto_pub -d -t Topic(your topic's name) -m "hellow world"
+    mosquitto_pub -d -t Topic(your topic's name) -m "hellow world"
    
    or you can sub message on terminal.
    
-     ->mosquitto_sub -d -t Topic(your topic's name)
+    mosquitto_sub -d -t Topic(your topic's name)
    
    when you want to stop, press Ctrl+C.
    
