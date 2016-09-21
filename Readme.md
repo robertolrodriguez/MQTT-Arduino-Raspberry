@@ -24,14 +24,13 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
 
 #2. you have to build MQTT client on PC(window or Linux or Mac). I has built 'MQTT.fx'
   
-   MQTT.fx
-   http://www.jensd.de/apps/mqttfx/1.1.0/
+   MQTT.fx:  http://www.jensd.de/apps/mqttfx/1.1.0/
   
    But you can choose other clients.
 
    you can check famous clients here.
   
-      - http://www.hivemq.com/blog/seven-best-mqtt-client-tools
+    http://www.hivemq.com/blog/seven-best-mqtt-client-tools
   
 #3. you have to set up MQTT client.
   
