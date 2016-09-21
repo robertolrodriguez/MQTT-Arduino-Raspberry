@@ -3,7 +3,7 @@ make IOT with Arduino,Raspberry. use MQTT
 
 #1. you have to make MQTT broker on raspberry pi.
 
-   Link https://rasspberrypi.wordpress.com/2012/09/16/mosquitto-mqtt-on-raspberry-pi-broker-publish-and-subscribe-client/
+   Link: https://rasspberrypi.wordpress.com/2012/09/16/mosquitto-mqtt-on-raspberry-pi-broker-publish-and-subscribe-client/
 
    follow to install MQTT broker on raspberry pi.
 
