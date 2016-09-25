@@ -68,9 +68,13 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/arduino%20wifi%20shield.PNG)
 
 #5. check your IOT device
-   when you finish to make IOT device, then you can check that it work well.
+   When you finish to make IOT device, then you can check that it work well.
    
-   use codes in My MQTT-Arduino-Raspberry/Test-arduino.
+   Use codes in MQTT-Arduino-Raspberry/Test-arduino.
+   
+   If your IOT device's sensor was work well, next is to send data to sever.
+   
+   Use codes in MQTT-Air-arduino, DHT-arduino, Heat-arduino.
    
    But You must change a few things.
    
