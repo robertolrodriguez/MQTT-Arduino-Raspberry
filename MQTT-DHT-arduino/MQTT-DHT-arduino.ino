@@ -7,11 +7,11 @@
 DHT dht(DHTPIN, DHTTYPE);  // DHT설정 - dht (디지털2, dht11)
 
 // Update these with values suitable for your network.
-char ssid[] = "Wifi ID";
-char password[] = "Wifi PassWord";
+char ssid[] = "wifi ID";
+char password[] = "wifi password";
 int status = WL_IDLE_STATUS;
-const char* mqtt_server = "xxx.xxx.x.x";  //server url
-const char* topic = "xxxx";  //topic's name
+const char* mqtt_server = "xxx.xxx.xxx.xxx";  //server url
+const char* topic = "your topic's name";  //topic's name
 // Callback function header
 void callback(char* topic, byte* payload, unsigned int length);
 
@@ -28,7 +28,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   byte* p = (byte*)malloc(length);
   // Copy the payload to the new buffer
   memcpy(p,payload,length);
-  client.publish("xxxx", p, length);  // xxxx is your topic
+  client.publish("your topic's name", p, length);  // xxxx is your topic
   // Free the memory
   free(p);
 }
@@ -81,7 +81,7 @@ void loop()
   
   if (client.connect("arduinoClient")) 
   {
-    client.publish("xxxx", room);  //xxxx is you topic's name
+    client.publish("your topic's name", room);  //xxxx is you topic's name
   }
   delay(9600);
 }
