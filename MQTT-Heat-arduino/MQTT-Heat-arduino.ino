@@ -5,11 +5,11 @@
 #include <PubSubClient.h>
 
 // Update these with values suitable for your network.
-char ssid[] = "xxxx";     //your wifi id
-char password[] = "xxxx";     //your wifi password
+char ssid[] = "wifi ID";     //your wifi id
+char password[] = "wifi Password";     //your wifi password
 int status = WL_IDLE_STATUS;
 const char* mqtt_server = "xxx.xxx.xxx.xxx";   //server's url
-const char* topic = "xxxx";                   //topic's name
+const char* topic = "your topic's name";                   //topic's name
 IRTherm therm; 
 // Callback function header
 void callback(char* topic, byte* payload, unsigned int length);
@@ -24,7 +24,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
   byte* p = (byte*)malloc(length);
   // Copy the payload to the new buffer
   memcpy(p,payload,length);
-  client.publish("xxxx", p, length); //xxxx is your topic
+  client.publish("your topic's name", p, length); //xxxx is your topic
   // Free the memory
   free(p);
 }
@@ -86,7 +86,7 @@ void loop()
     
    if(client.connect("arduinoClient"))
    {
-     client.publish("xxxx",kitchen); //xxxx is your topic
+     client.publish("your topic's name",kitchen); //xxxx is your topic
    }
    
 }
