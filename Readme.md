@@ -68,8 +68,9 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/sensor%20image/arduino%20wifi%20shield.PNG)
 
 #5. check your IOT device
-when you finish to make IOT device, then you can check that it work well.
-go to MQTT-Arduino-Raspberry/Test-arduino and uplode codes.
+   when you finish to make IOT device, then you can check that it work well.
+   
+   go to MQTT-Arduino-Raspberry/Test-arduino and uplode codes.
    
    
    
