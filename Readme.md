@@ -59,13 +59,13 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    On raspberrypi, also you can pub or sub by python script. you can see souce code in my github-MQTT-Arduino-Raspberry.
    
 #4. make IOT with arduino.
-   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/sensor%20image/DHT.PNG)
-   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/sensor%20image/Heat%20Sensor.PNG)
-   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/sensor%20image/Air-condition.PNG)
+   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/DHT.PNG)
+   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Heat%20Sensor.PNG)
+   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Air-condition.PNG)
    
    And you want to use wifi, then you have to use arduino wifi shield.
    
-   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/sensor%20image/arduino%20wifi%20shield.PNG)
+   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/arduino%20wifi%20shield.PNG)
 
 #5. check your IOT device
    when you finish to make IOT device, then you can check that it work well.
@@ -79,6 +79,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    Then, You have finished basic setup.
    
    You can see a message that send from IOT Device on Client. (I use client 'MQTT.fx')
+   ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/check.PNG)
    
    
    
