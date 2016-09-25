@@ -74,7 +74,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    
    But You must change a few things.
    
-   Wifi ID, Wifi password, your URL of the server, your topic's name.
+   'Wifi ID, Wifi password, your URL of the server, your topic's name.'
    
    Then, You have finished basic setup.
    
