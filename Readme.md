@@ -70,7 +70,17 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
 #5. check your IOT device
    when you finish to make IOT device, then you can check that it work well.
    
-   go to MQTT-Arduino-Raspberry/Test-arduino and uplode codes.
+   use codes in My MQTT-Arduino-Raspberry/Test-arduino.
+   
+   But You must change a few things.
+   
+   Wifi ID, Wifi password, your URL of the server, your topic's name.
+   
+   Then, You have finished basic setup.
+   
+   You can see a message that send from IOT Device on Client. (I use client 'MQTT.fx')
+   
+   
    
    
    
