@@ -63,7 +63,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Heat%20Sensor.PNG)
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Air-condition.PNG)
    
-   And you want to use wifi, then you have to use arduino wifi shield.
+   And you want to use wifi, then you have to use arduino wifi shield.(for arduino uno)
    
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/arduino%20wifi%20shield.PNG)
 
