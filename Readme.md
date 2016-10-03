@@ -48,11 +48,11 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
 
    Then, you can pub message on terminal.
    
-    mosquitto_pub -d -t Topic(your topic's name) -m "hellow world"
+    mosquitto_pub -d -t your topic's name -m "hellow world"
    
    or you can sub message on terminal.
    
-    mosquitto_sub -d -t Topic(your topic's name)
+    mosquitto_sub -d -t your topic's name
    
    when you want to stop, press Ctrl+C.
    
