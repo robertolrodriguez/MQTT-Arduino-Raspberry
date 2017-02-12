@@ -3,7 +3,7 @@ make IOT with Arduino,Raspberry. use MQTT
 
 By Nam Ki Hyun, sophomore , start project on 16/03/11.
 
-#1. you have to install MQTT broker on raspberry pi.
+#1. Install MQTT broker on raspberry pi.
 
    Link: https://rasspberrypi.wordpress.com/2012/09/16/mosquitto-mqtt-on-raspberry-pi-broker-publish-and-subscribe-client/
 
@@ -22,7 +22,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    If you followed everyone, you made an MQTT broker in a raspberry pie.
 
 
-#2. you have to build MQTT client on PC(window or Linux or Mac). I has built 'MQTT.fx'
+#2. Build MQTT client on PC(window or Linux or Mac). I has built 'MQTT.fx'
   
    MQTT.fx:  http://www.jensd.de/apps/mqttfx/1.1.0/
   
@@ -32,7 +32,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
   
    http://www.hivemq.com/blog/seven-best-mqtt-client-tools
   
-#3. you have to set up MQTT client.
+#3. Set up MQTT client.
   
 ####(1). MQTT broker url: the URL of the server on which you installed MQTT broker. (ex. ip: 192.168.xxx.xxx)
 
@@ -58,7 +58,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    
    On raspberrypi, also you can pub or sub by python script. you can see souce code in my github-MQTT-Arduino-Raspberry.
    
-#4. make IOT with arduino.
+#4. Make IOT with arduino.
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/DHT.PNG)
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Heat%20Sensor.PNG)
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/Air-condition.PNG)
@@ -67,7 +67,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    
    ![alt tag](https://github.com/DevKiHyun/MQTT-Arduino-Raspberry/blob/master/Image/arduino%20wifi%20shield.PNG)
 
-#5. check your IOT device
+#5. Check your IOT device
    When you finish to make IOT device, then you can check that it work well.
    
    Use codes in MQTT-Arduino-Raspberry/Test-arduino.
