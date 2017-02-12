@@ -19,7 +19,7 @@ By Nam Ki Hyun, sophomore , start project on 16/03/11.
    
     sudo apt-get install mosquitto
 
-   if you followed all, you are complete to make MQTT broker on raspberry pi.
+   If you followed everyone, you made an MQTT broker in a raspberry pie.
 
 
 #2. you have to build MQTT client on PC(window or Linux or Mac). I has built 'MQTT.fx'
